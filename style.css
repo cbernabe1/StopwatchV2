@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 50px 0 50px 0 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    margin-top: 50px;
+    padding: 10px 40px;
+    border: solid 1px black;
+    border-radius: 15px;
+    box-shadow: 0 10px #999;
+}
+
+button:hover{
+    border: solid 1px transparent;
+
+}
+
+button:active{
+    box-shadow: 0 5px rgb(48, 37, 37);
+    transform: translateY(4px);
+}
